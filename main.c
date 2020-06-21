@@ -8,7 +8,8 @@
 #define Edvardas 2
 #define Vladas 3
 
-//http://liepaatnaujinimai.rastija.lt/sintezatorius/SintezesVariklis_LIEPAprojektas.zip
+// https://www.xn--ratija-ckb.lt/liepa/infrastrukt%C5%ABrin%C4%97s-paslaugos/elektroninio-teksto-skaitytuvas/7563
+// http://liepaatnaujinimai.rastija.lt/sintezatorius/SintezesVariklis_LIEPAprojektas.zip
 
 char g_filePath[] = { "D:\\PROJECTS\\Liepa\\sound\\" };
 
