@@ -8,6 +8,8 @@
 #define Edvardas 2
 #define Vladas 3
 
+//http://liepaatnaujinimai.rastija.lt/sintezatorius/SintezesVariklis_LIEPAprojektas.zip
+
 char g_filePath[] = { "D:\\PROJECTS\\Liepa\\sound\\" };
 
 
