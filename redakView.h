@@ -16,7 +16,7 @@ static char THIS_FILE[] = __FILE__;
 // CRedakView
 
 
-char *katvardai[4] = { "D:\\Liepa\\programos\\Regina\\", "D:\\Liepa\\programos\\Edvardas\\", "D:\\Liepa\\programos\\Aiste\\", "D:\\Liepa\\programos\\Vladas\\" };
+char *katvardai[4] = { "C:\\Users\\4artu\\Liepa\\programos\\Regina\\", "C:\\Users\\4artu\\Liepa\\programos\\Edvardas\\", "C:\\Users\\4artu\\Liepa\\programos\\Aiste\\", "C:\\Users\\4artu\\Liepa\\programos\\Vladas\\" };
 int greicio_koeficientas = 100;
 int tono_koeficientas = 100;
 
@@ -52,7 +52,7 @@ void sound_Init( int balsoNumeris )
 	}
 	*/
 	int res;
-	if ((res = initLUSS("D:\\Liepa\\programos\\", katvardai[balsas])) < 0)
+	if ((res = initLUSS("C:\\Users\\4artu\\Liepa\\programos\\", katvardai[balsas])) < 0)
 	{
 		printf(getLUSSErrorMessages(res)); exit(EXIT_FAILURE);
 	}
